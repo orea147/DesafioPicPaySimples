@@ -1,0 +1,6 @@
+﻿services:
+  desafiopicpay:
+    image: desafiopicpay
+    build:
+      context: .
+      dockerfile: DesafioPicPay/Dockerfile
